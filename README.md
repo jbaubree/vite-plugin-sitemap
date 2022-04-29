@@ -38,7 +38,7 @@ export default {
 
 Now, run `npm build` and this will generate sitemap.xml and robots.txt files on your dist folder.
 
-To generate all pages of your app, you can:
+### To generate all pages of your app, you can:
 - Use dynamicRoutes to send routes paths.
 - Read [`MPA docs`](https://vitejs.dev/guide/build.html#multi-page-app) from Vite documentation.
 - Use MPA with [`vite-plugin-mpa`](https://github.com/IndexXuan/vite-plugin-mpa).
