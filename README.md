@@ -9,7 +9,7 @@
 > Sitemap generator plugin for Vite
 > Adaptation of [vite-ssg-sitemap](https://github.com/jbaubree/vite-ssg-sitemap) for Vite
 
-> This plugin scans your dist folder next build to get sitemap.xml and robots.txt files.
+> This plugin scans your dist folder next build to generate sitemap.xml and robots.txt files.
 
 ## Getting Started
 
