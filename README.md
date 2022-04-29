@@ -7,6 +7,9 @@
 [![CI](https://github.com/jbaubree/vite-plugin-sitemap/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/jbaubree/vite-plugin-sitemap/actions/workflows/ci.yml)
 
 > Sitemap generator plugin for Vite
+> Adaptation of [vite-ssg-sitemap](https://github.com/jbaubree/vite-ssg-sitemap) for Vite
+
+> This plugin scans your dist folder next build to get sitemap.xml and robots.txt files.
 
 ## Getting Started
 
@@ -34,6 +37,11 @@ export default {
 ```
 
 Now, run `npm build` and this will generate sitemap.xml and robots.txt files on your dist folder.
+
+To generate all pages of your app, you can:
+- Use dynamicRoutes to send routes paths.
+- Read [`MPA docs`](https://vitejs.dev/guide/build.html#multi-page-app) from Vite documentation.
+- Use MPA with [`vite-plugin-mpa`](https://github.com/IndexXuan/vite-plugin-mpa).
 
 ### hostname
 
