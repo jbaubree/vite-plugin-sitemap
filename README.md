@@ -1,10 +1,10 @@
 # vite-plugin-sitemap
 
-[![npm version](https://badgen.net/npm/v/vite-ssg-sitemap)](https://www.npmjs.com/package/vite-ssg-sitemap)
-[![monthly downloads](https://badgen.net/npm/dm/vite-ssg-sitemap)](https://www.npmjs.com/package/vite-ssg-sitemap)
-[![types](https://badgen.net/npm/types/vite-ssg-sitemap)](https://github.com/jbaubree/vite-ssg-sitemap/blob/main/src/types.ts)
-[![license](https://badgen.net/npm/license/vite-ssg-sitemap)](https://github.com/jbaubree/vite-ssg-sitemap/blob/main/LICENSE)
-[![CI](https://github.com/jbaubree/vite-ssg-sitemap/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/jbaubree/vite-ssg-sitemap/actions/workflows/ci.yml)
+[![npm version](https://badgen.net/npm/v/vite-plugin-sitemap)](https://www.npmjs.com/package/vite-plugin-sitemap)
+[![monthly downloads](https://badgen.net/npm/dm/vite-plugin-sitemap)](https://www.npmjs.com/package/vite-plugin-sitemap)
+[![types](https://badgen.net/npm/types/vite-plugin-sitemap)](https://github.com/jbaubree/vite-plugin-sitemap/blob/main/src/types.ts)
+[![license](https://badgen.net/npm/license/vite-plugin-sitemap)](https://github.com/jbaubree/vite-plugin-sitemap/blob/main/LICENSE)
+[![CI](https://github.com/jbaubree/vite-plugin-sitemap/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/jbaubree/vite-plugin-sitemap/actions/workflows/ci.yml)
 
 > Sitemap generator plugin for Vite
 
