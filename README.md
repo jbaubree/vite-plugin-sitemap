@@ -43,6 +43,9 @@ Now, run `npm build` and this will generate sitemap.xml and robots.txt files on 
 - Read [`MPA docs`](https://vitejs.dev/guide/build.html#multi-page-app) from Vite documentation.
 - Use MPA with [`vite-plugin-mpa`](https://github.com/IndexXuan/vite-plugin-mpa).
 
+
+## Configuration options
+
 ### hostname
 
 - **Type:** `string`
