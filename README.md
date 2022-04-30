@@ -6,7 +6,7 @@
 [![license](https://badgen.net/npm/license/vite-plugin-sitemap)](https://github.com/jbaubree/vite-plugin-sitemap/blob/main/LICENSE)
 [![CI](https://github.com/jbaubree/vite-plugin-sitemap/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/jbaubree/vite-plugin-sitemap/actions/workflows/ci.yml)
 
-> Sitemap generator plugin for Vite. Adaptation of [vite-ssg-sitemap](https://github.com/jbaubree/vite-ssg-sitemap) for Vite
+> Sitemap generator plugin for Vite using [sitemap-ts](https://github.com/jbaubree/sitemap-ts).
 
 > This plugin scans your dist folder next build to generate sitemap.xml and robots.txt files.
 
