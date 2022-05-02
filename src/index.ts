@@ -8,6 +8,20 @@ function sitemapPlugin(options: UserOptions = {}): Plugin {
     closeBundle() {
       generateSitemap(options)
     },
+    transformIndexHtml() {
+      return [
+        {
+          tag: 'link',
+          injectTo: 'head',
+          attrs: {
+            rel: 'sitemap',
+            type: 'application/xml',
+            title: 'Sitemap',
+            href: '/sitemap.xml',
+          },
+        },
+      ]
+    },
   }
 }
 
