@@ -7,7 +7,7 @@ importers:
       '@antfu/eslint-config': 0.22.0
       '@types/node': 17.0.30
       eslint: 8.14.0
-      sitemap-ts: 0.1.3
+      sitemap-ts: 0.1.5
       tsup: 5.12.6
       typescript: 4.6.4
       vite: 2.9.6
@@ -16,7 +16,7 @@ importers:
       '@antfu/eslint-config': 0.22.0_eslint@8.14.0+typescript@4.6.4
       '@types/node': 17.0.30
       eslint: 8.14.0
-      sitemap-ts: 0.1.3
+      sitemap-ts: 0.1.5
       tsup: 5.12.6_typescript@4.6.4
       typescript: 4.6.4
       vite: 2.9.6
@@ -3020,8 +3020,8 @@ packages:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
     dev: true
 
-  /sitemap-ts/0.1.3:
-    resolution: {integrity: sha512-H56KI6x+AHHKMRD9ZTuvlWGR+G/ThvsPBDFUI+nJqrKoFo7eirJCHR1tOxV8VzvZEjjOzFIoLYwm2qFLfjyt/g==}
+  /sitemap-ts/0.1.5:
+    resolution: {integrity: sha512-05EE+0uaBznvl0yjmL531kDuU7rYuMWmwYpMDw8AFaK/kcPSRkuxaBPT6ct9dz9miaVlDGy1pSXQY+KTeIYZKg==}
     dev: true
 
   /slash/3.0.0:
