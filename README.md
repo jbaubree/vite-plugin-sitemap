@@ -77,6 +77,23 @@ export default {
 
 You can find a working example in example folder.
 
+### exclude
+
+- **Type:** `string[]`
+- **Default:** `[]`
+
+Array of strings with excluded routes.
+```js
+export default {
+  plugins: [
+    Vue(),
+    Sitemap({ exclude: ['/admin', '/private'] }),
+  ],
+}
+```
+
+You can find a working example in example folder.
+
 ### outDir
 
 - **Type:** `string`

@@ -20,6 +20,7 @@ const config = defineConfig({
       hostname: 'http://www.test.com',
       readable: true,
       dynamicRoutes,
+      exclude: ['/names/John'],
     }),
     Pages(),
   ],
