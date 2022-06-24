@@ -19,7 +19,7 @@
     "typecheck": "vue-tsc --noEmit"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "0.23.0",
+    "@antfu/eslint-config": "0.25.2",
     "@types/node": "17.0.30",
     "eslint": "8.15.0",
     "sitemap-ts": "0.1.6",
