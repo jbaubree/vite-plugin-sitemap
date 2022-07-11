@@ -101,6 +101,14 @@ You can find a working example in example folder.
 
 Output directory.
 
+### extentions
+
+- **Type:** `string | string[]`
+- **Default:** `'html'`
+
+File extentions that need to be generated.
+Example: ['html', 'md']
+
 ### changefreq
 
 - **Type:** `string`
