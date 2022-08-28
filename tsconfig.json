@@ -9,7 +9,11 @@
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "noUnusedParameters": true
+    "noUnusedParameters": true,
+    "types": [
+      "vite/client",
+      "vite-plugin-pages/client"
+    ],
   },
   "exclude": [
     "**/dist",
