@@ -1,8 +1,7 @@
-import type { Plugin } from 'vite'
 import type { UserOptions } from 'sitemap-ts'
 import { generateSitemap } from 'sitemap-ts'
 
-function sitemapPlugin(options: UserOptions = {}): Plugin {
+function sitemapPlugin(options: UserOptions = {}) {
   return {
     name: 'vite-plugin-sitemap',
     closeBundle() {
@@ -12,7 +11,7 @@ function sitemapPlugin(options: UserOptions = {}): Plugin {
       return [
         {
           tag: 'link',
-          injectTo: 'head',
+          injectTo: 'head' as 'head' | 'body' | 'head-prepend' | 'body-prepend' | undefined,
           attrs: {
             rel: 'sitemap',
             type: 'application/xml',
