@@ -29,7 +29,7 @@ importers:
       '@vitejs/plugin-vue': 3.0.3
       '@vue/compiler-sfc': 3.2.37
       cross-env: 7.0.3
-      nodemon: 2.0.19
+      nodemon: 2.0.21
       react: 18.2.0
       typescript: 4.8.2
       vite: 3.0.9
@@ -45,7 +45,7 @@ importers:
       '@vitejs/plugin-vue': 3.0.3_vite@3.0.9+vue@3.2.37
       '@vue/compiler-sfc': 3.2.37
       cross-env: 7.0.3
-      nodemon: 2.0.19
+      nodemon: 2.0.21
       typescript: 4.8.2
       vite: 3.0.9
       vite-plugin-pages: 0.25.0_jz6tpbhhn2upnbiwxxr6wx7age
@@ -2662,11 +2662,10 @@ packages:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: true
 
-  /nodemon/2.0.19:
-    resolution: {integrity: sha512-4pv1f2bMDj0Eeg/MhGqxrtveeQ5/G/UVe9iO6uTZzjnRluSA4PVWf8CW99LUPwGB3eNIA7zUFoP77YuI7hOc0A==}
+  /nodemon/2.0.21:
+    resolution: {integrity: sha512-djN/n2549DUtY33S7o1djRCd7dEm0kBnj9c7S9XVXqRUbuggN1MZH/Nqa+5RFQr63Fbefq37nFXAE9VU86yL1A==}
     engines: {node: '>=8.10.0'}
     hasBin: true
-    requiresBuild: true
     dependencies:
       chokidar: 3.5.3
       debug: 3.2.7_supports-color@5.5.0
