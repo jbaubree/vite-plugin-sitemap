@@ -1,7 +1,7 @@
 {
   "name": "vite-plugin-sitemap",
   "version": "0.3.0",
-  "packageManager": "pnpm@7.9.5",
+  "packageManager": "pnpm@7.32.2",
   "description": "Sitemap generator plugin for Vite",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
