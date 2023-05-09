@@ -20,8 +20,8 @@ importers:
         specifier: 8.3.1
         version: 8.3.1
       sitemap-ts:
-        specifier: 1.4.0
-        version: 1.4.0
+        specifier: 1.3.0
+        version: 1.3.0
       typescript:
         specifier: 5.0.4
         version: 5.0.4
@@ -3132,8 +3132,8 @@ packages:
       semver: 7.0.0
     dev: true
 
-  /sitemap-ts@1.4.0:
-    resolution: {integrity: sha512-M/UPvSZmTluxLWhy5bGvPRRd0E1U9u87Ridh46GjCU2ZUJ1IvvJ9EggGrje2wGkCK13fXXMhjvQCb2v2oYaSBA==}
+  /sitemap-ts@1.3.0:
+    resolution: {integrity: sha512-cTT6g3jLK+Wh2IHtV5W0ios8Q9EHk0CunpayLhuIMD5Q4K+JQBsQIMS0MFaLg6zUpVbvhi+pgrgdONeZ3xcGoA==}
     dependencies:
       '@antfu/utils': 0.7.2
       fast-glob: 3.2.12
