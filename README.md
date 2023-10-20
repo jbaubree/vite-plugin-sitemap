@@ -111,24 +111,31 @@ Example: ['html', 'md']
 
 ### changefreq
 
-- **Type:** `string`
+- **Type:** `string | RoutesOptionMap<string>`
 - **Default:** `'daily'`
 
 Change frequency option for sitemap.
 
 ### priority
 
-- **Type:** `number`
+- **Type:** `number | RoutesOptionMap<number>`
 - **Default:** `1`
 
 Priority option for sitemap.
 
 ### lastmod
 
-- **Type:** `Date`
+- **Type:** `Date | RoutesOptionMap<Date>`
 - **Default:** `new Date()`
 
 Last modification option for sitemap.
+
+### RoutesOptionMap\<Type>
+
+- **Type:** `{ [route: string]: Type }`
+
+Used for changing `changefreq`, `priority`, or `lastmod` on a by-route level.
+The (optional) route `'*'` is used as default.
 
 ### readable
 

@@ -1,25 +1,25 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
-    "module": "ESNext",
+    "incremental": true,
     "target": "es2016",
     "lib": ["DOM", "ESNext"],
-    "strict": true,
-    "esModuleInterop": true,
-    "incremental": true,
-    "skipLibCheck": true,
+    "module": "ESNext",
     "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "noUnusedLocals": true,
-    "strictNullChecks": true,
-    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"]
+    },
     "types": [
       "vite/client",
       "vite-plugin-pages/client"
     ],
-    "paths": {
-      "~/*": ["src/*"]
-    }
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true
   },
   "exclude": ["dist", "node_modules"]
 }

@@ -9,16 +9,16 @@
   "dependencies": {
     "react": "18.2.0",
     "vue": "3.2.47",
-    "vue-router": "4.1.6"
+    "vue-router": "4.2.5"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "4.2.1",
-    "@vue/compiler-sfc": "3.2.47",
+    "@vitejs/plugin-vue": "4.4.0",
+    "@vue/compiler-sfc": "3.3.6",
     "cross-env": "7.0.3",
-    "nodemon": "2.0.22",
-    "typescript": "5.0.4",
-    "vite": "4.3.3",
-    "vite-plugin-pages": "0.29.0",
+    "nodemon": "3.0.1",
+    "typescript": "5.2.2",
+    "vite": "4.5.0",
+    "vite-plugin-pages": "0.31.0",
     "vite-plugin-sitemap": "workspace:*"
   }
 }
