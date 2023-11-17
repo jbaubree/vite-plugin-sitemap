@@ -94,6 +94,18 @@ export default {
 
 You can find a working example in example folder.
 
+### externalSitemaps
+
+- **Type:** `string[]`
+- **Default:** `[]`
+
+Array of strings with other sitemaps paths or urls.
+```js
+generateSitemap({
+  externalSitemaps: ['sitemap_1', 'sitemap_2', 'subpath/sitemap_3', 'https://site.com/sitemap.xml']
+})
+```
+
 ### outDir
 
 - **Type:** `string`
