@@ -8,12 +8,12 @@
   },
   "dependencies": {
     "react": "18.2.0",
-    "vue": "3.2.47",
+    "vue": "3.4.21",
     "vue-router": "4.2.5"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "4.4.0",
-    "@vue/compiler-sfc": "3.3.6",
+    "@vue/compiler-sfc": "3.4.21",
     "cross-env": "7.0.3",
     "nodemon": "3.0.1",
     "typescript": "5.2.2",
