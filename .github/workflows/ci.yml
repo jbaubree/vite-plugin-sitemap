@@ -8,7 +8,7 @@ on:
 jobs:
   lint:
     runs-on: ubuntu-latest
-    name: 'Lint: node-16, ubuntu-latest'
+    name: 'Lint: node-20, ubuntu-latest'
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
@@ -16,14 +16,12 @@ jobs:
           fetch-depth: 0
 
       - name: Install pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: 6
+        uses: pnpm/action-setup@v4
 
-      - name: Set node version to 16
-        uses: actions/setup-node@v3
+      - name: Set node version to 20
+        uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 20
           cache: pnpm
 
       - name: Install deps
