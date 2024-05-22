@@ -12,13 +12,13 @@
     "vue-router": "4.2.5"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "4.4.0",
-    "@vue/compiler-sfc": "3.3.6",
-    "cross-env": "7.0.3",
-    "nodemon": "3.0.1",
-    "typescript": "5.2.2",
-    "vite": "4.5.0",
-    "vite-plugin-pages": "0.31.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/compiler-sfc": "^3.4.27",
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.1.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11",
+    "vite-plugin-pages": "^0.32.1",
     "vite-plugin-sitemap": "workspace:*"
   }
 }

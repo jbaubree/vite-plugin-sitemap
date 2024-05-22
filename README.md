@@ -156,6 +156,14 @@ The (optional) route `'*'` is used as default.
 
 Converts XML into a human readable format
 
+### i18n
+
+- **Type:** `{ defaultLanguage?: string, languages: string[] }`
+- **Default:** `undefined`
+
+Add i18n support defining alternate links.
+defaultLanguage will use this language with / and languages with /language
+
 ### generateRobotsTxt
 
 - **Type:** `boolean`
