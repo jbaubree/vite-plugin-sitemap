@@ -30,7 +30,7 @@ import Sitemap from 'vite-plugin-sitemap'
 export default {
   plugins: [
     Vue(),
-    Sitemap(),
+    Sitemap({ hostname: 'https://example.com' }),
   ],
 }
 ```
