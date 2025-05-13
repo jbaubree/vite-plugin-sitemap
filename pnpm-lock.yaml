@@ -27,8 +27,8 @@ importers:
         specifier: ^9.1.2
         version: 9.1.2
       sitemap-ts:
-        specifier: ^1.8.0
-        version: 1.8.0
+        specifier: ^1.9.0
+        version: 1.9.0
       taze:
         specifier: ^0.13.8
         version: 0.13.8
@@ -1939,8 +1939,8 @@ packages:
   sisteransi@1.0.5:
     resolution: {integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==}
 
-  sitemap-ts@1.8.0:
-    resolution: {integrity: sha512-QjsUjYRAyxYaVZuJ0E3u3sTaUzkmXf+QterxUVRas/7dfl+oLIOug2haQR6yLGc/+G2oQEHOj1CaT1b97Xon2Q==}
+  sitemap-ts@1.9.0:
+    resolution: {integrity: sha512-NPMOzslTlrmvCnFkB4Nfeaj+zykOifo2zNBDrVN5B5+zJWKYQk1zd6IpbVqJAAmsE/KnLYVSnMrK+ITDHQzsBg==}
 
   sitemap@8.0.0:
     resolution: {integrity: sha512-+AbdxhM9kJsHtruUF39bwS/B0Fytw6Fr1o4ZAIAEqA6cke2xcoO2GleBw9Zw7nRzILVEgz7zBM5GiTJjie1G9A==}
@@ -4180,7 +4180,7 @@ snapshots:
 
   sisteransi@1.0.5: {}
 
-  sitemap-ts@1.8.0:
+  sitemap-ts@1.9.0:
     dependencies:
       '@antfu/utils': 0.7.8
       fast-glob: 3.3.2

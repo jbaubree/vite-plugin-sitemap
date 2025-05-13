@@ -175,6 +175,15 @@ strategy specifies if the language code is a suffix to the path or a prefix. 'su
 
 Enables robots.txt file generation
 
+### xmlns
+
+- **Type:** `NSArgs`
+- **Default:** `undefined`
+
+Trim the xml namespace
+See https://www.npmjs.com/package/sitemap#options-you-can-pass
+Type: https://github.com/ekalinin/sitemap.js/blob/0af656e6a4a7b1403c9b3af23603261bd9cf94d3/lib/sitemap-stream.ts#L20
+
 ### robots
 
 - **Type:** `RobotOption[]`
