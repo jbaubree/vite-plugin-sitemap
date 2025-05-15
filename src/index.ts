@@ -1,8 +1,7 @@
 import type { UserOptions } from 'sitemap-ts'
 import { generateSitemap } from 'sitemap-ts'
-import type { Plugin } from 'vite'
 
-function sitemapPlugin(options: UserOptions = {}): Plugin {
+function sitemapPlugin(options: UserOptions = {}) {
   return {
     name: 'vite-plugin-sitemap',
     closeBundle() {
