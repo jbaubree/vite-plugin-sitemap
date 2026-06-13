@@ -4,6 +4,15 @@
   "version": "0.8.2",
   "packageManager": "pnpm@9.1.2",
   "description": "Sitemap generator plugin for Vite",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbaubree/vite-plugin-sitemap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jbaubree/vite-plugin-sitemap/issues"
+  },
+  "homepage": "https://github.com/jbaubree/vite-plugin-sitemap#readme",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
