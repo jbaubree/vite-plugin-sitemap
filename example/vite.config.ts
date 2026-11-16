@@ -1,7 +1,9 @@
+import { fileURLToPath } from 'node:url'
 import Vue from '@vitejs/plugin-vue'
+import { getRoutesFromTypedRouter } from 'sitemap-ts'
 import { defineConfig } from 'vite'
-import Pages from 'vite-plugin-pages'
 import Sitemap from 'vite-plugin-sitemap'
+import VueRouter from 'vue-router/vite'
 
 const names = [
   'John',
@@ -9,20 +11,25 @@ const names = [
   'Addison',
   'Dana',
 ]
-const dynamicRoutes = names.map(name => `/names/${name}`)
+const typedRouterFile = fileURLToPath(new URL('./typed-router.d.ts', import.meta.url))
 
 const config = defineConfig({
   plugins: [
+    VueRouter({
+      routesFolder: 'src/pages',
+    }),
     Vue({
       include: [/\.vue$/, /\.md$/],
     }),
     Sitemap({
       hostname: 'http://www.test.com',
       readable: true,
-      dynamicRoutes,
+      dynamicRoutes: [
+        ...getRoutesFromTypedRouter(typedRouterFile),
+        ...names.map(name => `/names/${name}`),
+      ],
       exclude: ['/names/John'],
     }),
-    Pages(),
   ],
 })
 

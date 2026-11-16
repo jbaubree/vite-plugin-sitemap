@@ -78,6 +78,29 @@ export default {
 
 You can find a working example in example folder.
 
+For Vue Router v5+ (or [unplugin-vue-router](https://uvr.esm.is/)) with file-based routing, use the `getRoutesFromTypedRouter` helper re-exported by `sitemap-ts` to auto-discover static routes from the generated `typed-router.d.ts`:
+
+```js
+import { fileURLToPath } from 'node:url'
+import { getRoutesFromTypedRouter } from 'sitemap-ts'
+import Sitemap from 'vite-plugin-sitemap'
+
+const typedRouterFile = fileURLToPath(new URL('./typed-router.d.ts', import.meta.url))
+
+export default {
+  plugins: [
+    Sitemap({
+      dynamicRoutes: [
+        ...getRoutesFromTypedRouter(typedRouterFile),
+        ...names.map(name => `/names/${name}`),
+      ],
+    }),
+  ],
+}
+```
+
+Dynamic routes (`/:param`, `*`) are filtered out by default — expand them to concrete values yourself. Pass `{ includeDynamic: true }` to keep them as patterns.
+
 ### exclude
 
 - **Type:** `string[]`
