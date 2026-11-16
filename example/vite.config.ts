@@ -1,7 +1,7 @@
-import { defineConfig } from 'vite'
 import Vue from '@vitejs/plugin-vue'
-import Sitemap from 'vite-plugin-sitemap'
+import { defineConfig } from 'vite'
 import Pages from 'vite-plugin-pages'
+import Sitemap from 'vite-plugin-sitemap'
 
 const names = [
   'John',

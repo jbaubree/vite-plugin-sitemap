@@ -2,9 +2,10 @@
   "name": "vite-plugin-sitemap",
   "type": "module",
   "version": "0.8.2",
-  "packageManager": "pnpm@9.1.2",
+  "packageManager": "pnpm@12.21.0",
   "description": "Sitemap generator plugin for Vite",
   "license": "MIT",
+  "homepage": "https://github.com/jbaubree/vite-plugin-sitemap#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jbaubree/vite-plugin-sitemap.git"
@@ -12,7 +13,6 @@
   "bugs": {
     "url": "https://github.com/jbaubree/vite-plugin-sitemap/issues"
   },
-  "homepage": "https://github.com/jbaubree/vite-plugin-sitemap#readme",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -30,17 +30,17 @@
     "up": "taze major -r -I"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.18.1",
-    "@types/node": "^20.12.12",
-    "eslint": "^9.3.0",
-    "eslint-plugin-format": "^0.1.1",
-    "pkgroll": "^2.1.1",
-    "pnpm": "^9.1.2",
-    "sitemap-ts": "^1.9.0",
-    "taze": "^0.13.8",
-    "typescript": "^5.4.5",
-    "vite": "^5.2.11",
-    "vite-plugin-pages": "^0.32.1",
-    "vue-tsc": "^2.0.19"
+    "@antfu/eslint-config": "^10.0.0",
+    "@types/node": "^26.6.6",
+    "eslint": "^10.15.0",
+    "eslint-plugin-format": "^2.0.1",
+    "pkgroll": "^2.29.1",
+    "pnpm": "^12.21.0",
+    "sitemap-ts": "^2.2.0",
+    "taze": "^21.3.0",
+    "typescript": "^6.0.3",
+    "vite": "^8.3.8",
+    "vite-plugin-pages": "^0.33.3",
+    "vue-tsc": "^3.3.14"
   }
 }

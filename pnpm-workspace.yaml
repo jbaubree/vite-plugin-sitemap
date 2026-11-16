@@ -1,2 +1,13 @@
+minimumReleaseAgeExcludePrune: true
+minimumReleaseAgeExclude:
+  - sitemap-ts@2.2.0
+
+trustPolicy: no-downgrade
+shellEmulator: true
+
 packages:
   - example
+
+allowBuilds:
+  esbuild: true
+  pnpm: true
