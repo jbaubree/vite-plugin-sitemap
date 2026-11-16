@@ -38,7 +38,7 @@
     "pnpm": "^12.21.0",
     "sitemap-ts": "^2.4.0",
     "taze": "^21.3.0",
-    "typescript": "^6.0.3",
+    "typescript": "^7.0.0",
     "vite": "^8.3.8",
     "vue-tsc": "^3.3.14"
   }
