@@ -168,12 +168,14 @@ Converts XML into a human readable format
 
 ### i18n
 
-- **Type:** `{ defaultLanguage?: string, languages: string[], strategy?: 'suffix' | 'prefix' }`
+- **Type:** `{ defaultLanguage?: string, languages: string[], strategy?: 'suffix' | 'prefix' | 'prefix_except_default', includeDefaultLanguageInURL?: boolean }`
 - **Default:** `undefined, strategy: 'suffix'`
 
 Add i18n support defining alternate links.
 defaultLanguage will use this language with / and languages with /language.
 strategy specifies if the language code is a suffix to the path or a prefix. 'suffix' is default. Example: http://localhost/mypage/en or http://localhost/en/mypage
+
+Set `includeDefaultLanguageInURL: true` to also apply the strategy to the default language. In that case, `<loc>`, the default-language alternate, and `x-default` all point to the localized URL (e.g. http://localhost/en/mypage instead of http://localhost/mypage). Useful when every page is served under a language prefix, as recommended by [Google](https://developers.google.com/search/docs/specialty/international/localized-versions#example_2).
 
 ### generateRobotsTxt
 

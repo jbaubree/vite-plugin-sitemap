@@ -36,7 +36,7 @@
     "eslint-plugin-format": "^2.0.1",
     "pkgroll": "^2.29.1",
     "pnpm": "^12.21.0",
-    "sitemap-ts": "^2.2.0",
+    "sitemap-ts": "^2.3.1",
     "taze": "^21.3.0",
     "typescript": "^6.0.3",
     "vite": "^8.3.8",
