@@ -1,6 +1,6 @@
 minimumReleaseAgeExcludePrune: true
 minimumReleaseAgeExclude:
-  - sitemap-ts@2.2.0
+  - sitemap-ts@2.3.1
 
 trustPolicy: no-downgrade
 shellEmulator: true
