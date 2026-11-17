@@ -195,7 +195,7 @@ importers:
         version: 12.21.0
       sitemap-ts:
         specifier: ^2.4.0
-        version: 2.4.0
+        version: 2.4.1
       taze:
         specifier: ^21.3.0
         version: 21.3.0
@@ -2767,8 +2767,8 @@ packages:
     resolution: {integrity: sha512-2WCqLdt12eN6ehLI50S2/ZxoowXU3DD1KVPRyVP0WEsFahrGZZmCdq1K59qjJljMRIDTwx1D9YaRK+hDneBUMg==}
     engines: {node: '>=20'}
 
-  sitemap-ts@2.4.0:
-    resolution: {integrity: sha512-4WvzefR76BzS7GrarSa8dMrzYHVaiCYwlW1kXJOcHTOPkG17NhTQoWmw0GyfahEb2Gx9ZPonEQNaKjeKQz5aGw==}
+  sitemap-ts@2.4.1:
+    resolution: {integrity: sha512-fofwZoGVNsDXN+N80jUR1khaEAdCun2HKUGbMUyf9tXLU4GyiWDrdKGzpseUL9AAF8fijUu4EKFA7JEEg6PBuQ==}
     engines: {node: '>=22'}
 
   sitemap@10.0.0:
@@ -5647,7 +5647,7 @@ snapshots:
 
   sisteransi@2.0.0: {}
 
-  sitemap-ts@2.4.0:
+  sitemap-ts@2.4.1:
     dependencies:
       '@antfu/utils': 9.3.0
       fast-glob: 3.3.3
