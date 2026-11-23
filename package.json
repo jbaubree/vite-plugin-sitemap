@@ -2,7 +2,7 @@
   "name": "vite-plugin-sitemap",
   "type": "module",
   "version": "0.11.0",
-  "packageManager": "pnpm@12.21.0",
+  "packageManager": "pnpm@12.23.0",
   "description": "Sitemap generator plugin for Vite",
   "license": "MIT",
   "homepage": "https://github.com/jbaubree/vite-plugin-sitemap#readme",
